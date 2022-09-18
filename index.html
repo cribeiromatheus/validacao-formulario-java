@@ -1,0 +1,47 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta name="author" content="Matheus da Costa Ribeiro">
+    <meta name="description" content="Exercício para avaliação EBAC">
+    <link rel="stylesheet" href="./css/reset.css">
+    <link rel="stylesheet" href="./css/style.css">
+    <script type="javascript" src="./js/script.js"></script>
+    <title>Document</title>
+</head>
+<body>
+        <header><img src="./img/logo.png">
+            <h1>Vamos Fazer um Orçamento?</h1>
+        </header>
+        <section>
+            <article>
+                <div class="container2">
+                    <form id="valida1" method="POST" action="#">
+                        <img src="./img/form.jpg" alt="imagem lateral do formulário">
+                        <h3>Preencha seus dados no formulário</h3>
+                        <!--Dados para serem preenchidos no formulário-->
+                        <label for="nomeform">Nome: </label>
+                        <input type="text" id="nomeform" name="nomeform" maxlength="40" placeholder="Seu nome completo" required>
+                        <label for="idadeform">Idade: </label>
+                        <input type="number" max="120" min="18" id="idadeform" name="idadeform" size="9" required>
+                        <label for="cidadeform">Cidade: </label>
+                        <input type="text" name="cidadeform" id="cidadeform" required>
+                        <label for="cepform">CEP:</label>
+                        <input type="text" name="cepform" id="cepform" maxlength="50" placeholder="Insira o CEP de sua cidade">
+
+                    </form>
+                </div>
+            </article>
+        </section>
+    <div class="container">
+        <div id="footerroda">
+            <footer>
+                <p>&copy; S2fotos todos os direitos reservados. Desenvolvido por Matheus da Costa Ribeiro.</p>
+            </footer>
+        </div>
+    </div>
+    
+</body>
+</html>
