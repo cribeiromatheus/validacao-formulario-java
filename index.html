@@ -8,6 +8,9 @@
     <meta name="description" content="Exercício para avaliação EBAC">
     <link rel="stylesheet" href="./css/reset.css">
     <link rel="stylesheet" href="./css/style.css">
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Montserrat:ital,wght@0,100;0,200;0,300;0,400;0,500;0,600;0,700;0,800;0,900;1,100;1,200;1,300;1,400;1,500;1,600&display=swap" rel="stylesheet">
     <script type="javascript" src="./js/script.js"></script>
     <title>Document</title>
 </head>
@@ -21,16 +24,20 @@
                     <form id="valida1" method="POST" action="#">
                         <img src="./img/form.jpg" alt="imagem lateral do formulário">
                         <h3>Preencha seus dados no formulário</h3>
-                        <!--Dados para serem preenchidos no formulário-->
-                        <label for="nomeform">Nome: </label>
-                        <input type="text" id="nomeform" name="nomeform" maxlength="40" placeholder="Seu nome completo" required>
-                        <label for="idadeform">Idade: </label>
-                        <input type="number" max="120" min="18" id="idadeform" name="idadeform" size="9" required>
-                        <label for="cidadeform">Cidade: </label>
-                        <input type="text" name="cidadeform" id="cidadeform" required>
-                        <label for="cepform">CEP:</label>
-                        <input type="text" name="cepform" id="cepform" maxlength="50" placeholder="Insira o CEP de sua cidade">
-
+                        <div id="agrup">                            
+                            <!--Dados para serem preenchidos no formulário-->
+                            <label for="nomeform">Nome: </label>
+                            <input type="text" id="nomeform" name="nomeform" maxlength="40" placeholder="Seu nome completo" class="inputs-g" required>
+                            <label for="idadeform">Idade: </label>
+                            <input type="number" class="inputs-m" max="120" min="18" id="idadeform" name="idadeform" size="9" required>
+                            <label for="cidadeform">Cidade: </label>
+                            <input type="text" class="inputs-g" name="cidadeform" id="cidadeform" placeholder="Sua cidade" required>
+                            <label for="cepform">CEP:</label>
+                            <input type="text" class="inputs-g" name="cepform" id="cepform" maxlength="50" placeholder="Insira o CEP de sua cidade">
+                            <label for="cepform">Telefone:</label>
+                            <input type="tel" class="inputs-g" name="cepform" id="cepform" maxlength="50" placeholder="Melhor número para contato">
+                            <input type="submit" value="Enviar">
+                        </div>
                     </form>
                 </div>
             </article>

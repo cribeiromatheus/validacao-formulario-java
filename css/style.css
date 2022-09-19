@@ -1,6 +1,7 @@
 
 html {
     font-size: 62.5%;
+    font-family: 'Montserrat', sans-serif;
 }
 
 body {
@@ -23,8 +24,8 @@ header img {
 header h1 {
     color: white;
     margin-left: 33rem;
-    font-size: 7rem;
-    padding-top: 4rem
+    font-size: 6rem;
+    padding-top: 5rem;
 }
 
 footer {
@@ -50,7 +51,7 @@ section article form {
 
 section article form input {
     display: block; 
-    margin-bottom: 2rem;     
+    margin-bottom: 2rem;         
 }
 
 section article form h3 {
@@ -60,15 +61,20 @@ section article form h3 {
     padding-top: 2rem;
     text-align: center;
     color: white;
-    font-size: 4rem;
+    font-size: 3.2rem;
     padding-bottom: 2rem;
-    margin-bottom: 2rem;      
+    margin-bottom: 2rem;
+    border-radius: 20px 0 0 0    
 }
 
 section article img {
     width: 500px;
-    height: 400px;
+    height: 512px;
+    /* margin-top: 80px; */
+    border-radius: 20px 0 0 0;
 }
+
+
 
 /*IDS*/
 
@@ -87,6 +93,10 @@ section article img {
     top: 25%; 
 }
 
+#agrup {
+    margin-left: 52rem;
+}
+
 /*Classes*/
 
 .container {
@@ -98,5 +108,19 @@ section article img {
     background-color: white;
     /* padding: .5rem; */
     border: 15px solid #4516FF;
+    border-radius: 40px 0 40px;
 }
 
+.inputs-g {
+    border-radius: 10px;
+    width: 50%;
+    height: 3rem;
+    border: 2px solid #ddd;
+}
+
+.inputs-m {
+    border-radius: 10px;
+    width: 5%;
+    height: 3rem;
+    border: 2px solid #ddd;
+}
