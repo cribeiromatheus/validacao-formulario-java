@@ -1,0 +1,302 @@
+
+html {
+    font-size: 62.5%;
+    font-family: 'Montserrat', sans-serif;
+}
+
+body {
+    background: url("../img/bg.jpg");
+    background-repeat: no-repeat;    
+}
+
+header {
+    width: 100%;
+    height: 160px;
+    background-color: #FF5572;    
+}
+
+header img {
+    width: 300px;
+    margin-top: -6.3rem;
+    position: absolute;
+}
+
+header h1 {
+    color: white;
+    margin-left: 33rem;
+    font-size: 6rem;
+    padding-top: 5rem;
+}
+
+footer {
+    position: absolute;
+    bottom: 0px;
+    width: 100%;    
+}
+
+section article {
+    width: 90%;
+    padding: 0 3%;
+    margin: 4rem auto;        
+}
+
+section article img {
+    float: left;    
+    margin-right: .5rem;    
+}
+
+section article form {
+    font-size: 1.8rem;      
+}
+
+section article form input {
+    display: block; 
+    margin-bottom: 2rem;         
+}
+
+section article form h3 {
+    background-color: #E600FF;
+    width: 100%;
+    height: 4rem;
+    padding-top: 2rem;
+    text-align: center;
+    color: white;
+    font-size: 3.2rem;
+    padding-bottom: 2rem;
+    margin-bottom: 2rem;
+    border-radius: 20px 0 0 0    
+}
+
+section article img {
+    width: 500px;
+    height: 562px;
+    /* margin-top: 80px; */
+    border-radius: 20px 0 0 0;
+}
+
+
+
+/*IDS*/
+
+#footerroda p {
+    color: white;    
+    text-align: center;
+    width: 100%;
+    padding-bottom: 1rem;  
+}
+
+#footerroda {
+    background-color: #4516FF;
+    position: absolute;    
+    height: 50px;
+    width: 100%; 
+    top: 90px; 
+}
+
+#agrup {
+    margin-left: 52rem;
+}
+
+#env {
+    border-radius: 10px;
+    width: 100px;
+    height: 22px;
+    background-color: #E600FF;
+    border: none;
+    color: white;
+}
+#env:hover {
+    background-color: #4516FF;
+}
+
+/*Classes*/
+
+.container {
+    position: absolute !important;
+    width: 100%;
+}
+
+.container2 {
+    background-color: white;
+    /* padding: .5rem; */
+    border: 15px solid #4516FF;
+    border-radius: 40px 0 40px;
+}
+
+.inputs-g {
+    border-radius: 10px;
+    width: 50%;
+    height: 3rem;
+    border: 2px solid #ddd;
+}
+
+.inputs-m {
+    border-radius: 10px;
+    width: 5%;
+    height: 3rem;
+    border: 2px solid #ddd;
+}
+
+.mensagemerro {
+    width: 90%;
+    background-color: white;
+    height: 50px;
+    
+}
+
+.erro {
+    border: 2px solid #ff0000 !important;
+}
+
+/*Media*/
+
+@media(max-width: 1260px){
+    header h1 {
+        font-size: 5rem;
+    }
+    #valida1 h3 {
+        font-size: 2.5rem;
+    }
+}
+@media(max-width: 1111px){
+    header h1 {
+        font-size: 4rem;
+    }
+    #valida1 h3 {
+        font-size: 1.8rem;
+        height: 2rem;
+    }
+    section article img {
+        width: 455px;
+        height: 542px;
+    }
+    #agrup {
+        margin-left: 48rem;
+    }
+}
+@media(max-width: 961px){
+
+    header img {
+        width: 250px;
+        margin-top: -6rem;
+    }
+
+    header {
+        height: 130px;
+    }
+
+    header h1 {
+        margin-left: 26rem;
+        font-size: 4rem;
+    }
+
+    #valida1 h3 {
+        font-size: 1.8rem;
+        height: 2rem;
+    }
+    section article img {
+        width: 400px;
+        height: 542px;
+    }
+    #agrup {
+        margin-left: 42rem;
+    }
+}
+@media(max-width: 880px){
+
+    header img {
+        width: 250px;
+        margin-top: -6rem;
+    }
+
+    header {
+        height: 130px;
+    }
+
+    header h1 {
+        margin-left: 26rem;
+        font-size: 3rem;        
+    }
+
+    #valida1 h3 {
+        font-size: 2rem;
+        height: 1.2rem;
+    }
+    section article img {
+        width: 0px;
+        height: 0px;
+    }
+    #agrup {
+        margin-left: 2rem;
+    }
+}
+@media(max-width: 725px){
+
+    header img {
+        width: 200px;
+        margin-top: -4rem;
+    }
+
+    header {
+        height: 120px;
+    }
+
+    header h1 {
+        margin-left: 20rem;
+        font-size: 2.5rem;        
+    }
+
+    #valida1 h3 {
+        font-size: 2rem;
+        height: 1.2rem;
+    }
+    section article img {
+        width: 0px;
+        height: 0px;
+    }
+    #agrup {
+        margin-left: 2rem;
+    }
+}
+@media(max-width: 598px){
+
+    header img {
+        width: 150px;
+        margin-top: -3rem;
+    }
+
+    header {
+        height: 100px;
+    }
+
+    header h1 {
+        margin-left: 20rem;
+        font-size: 2rem;
+        padding-top: 4rem;      
+    }
+
+    #valida1 h3 {
+        font-size: 2rem;
+        height: 1.2rem;
+    }
+    section article img {
+        width: 0px;
+        height: 0px;
+    }
+    #agrup {
+        margin-left: 2rem;
+    }
+}
+@media(max-width: 536px){
+
+    header h1 {
+        margin-left: 16rem;        
+    }
+    header {
+        height: 95px;
+    }
+}
+@media(min-width: 471px){
+
+}
+
