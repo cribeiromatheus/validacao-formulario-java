@@ -23,20 +23,21 @@
                 <div class="container2">
                     <form id="valida1" method="POST" action="#">
                         <img src="./img/form.jpg" alt="imagem lateral do formulário">
-                        <h3>Preencha seus dados no formulário</h3>
+                        <h3>Preencha seus dados no formulário</h3>                        
                         <div id="agrup">                            
                             <!--Dados para serem preenchidos no formulário-->
+                            <div class="mensagemerro"></div>
                             <label for="nomeform">Nome: </label>
-                            <input type="text" id="nomeform" name="nomeform" maxlength="40" placeholder="Seu nome completo" class="inputs-g" required>
+                            <input type="text" id="nomeform" class="inputs-g obrigatorio"  name="nomeform" maxlength="40" placeholder="Seu nome completo" class="inputs-g" required>
                             <label for="idadeform">Idade: </label>
-                            <input type="number" class="inputs-m" max="120" min="18" id="idadeform" name="idadeform" size="9" required>
+                            <input type="number" class="inputs-m obrigatorio" max="120" min="18" id="idadeform"  name="idadeform" size="9" required>
                             <label for="cidadeform">Cidade: </label>
-                            <input type="text" class="inputs-g" name="cidadeform" id="cidadeform" placeholder="Sua cidade" required>
+                            <input type="text" class="inputs-g obrigatorio"  name="cidadeform" id="cidadeform" placeholder="Sua cidade" required>
                             <label for="cepform">CEP:</label>
-                            <input type="text" class="inputs-g" name="cepform" id="cepform" maxlength="50" placeholder="Insira o CEP de sua cidade">
+                            <input type="text" class="inputs-g numero"  name="cepform" id="cepform" maxlength="50" placeholder="xxxxx-xxx" required>
                             <label for="cepform">Telefone:</label>
-                            <input type="tel" class="inputs-g" name="cepform" id="cepform" maxlength="50" placeholder="Melhor número para contato">
-                            <input type="submit" value="Enviar">
+                            <input type="tel" class="inputs-g tel"  name="cepform" id="cepform" maxlength="50" placeholder="(xx)xxxxx-xxxx" required>
+                            <input id="env" type="submit" value="Enviar">
                         </div>
                     </form>
                 </div>
@@ -49,6 +50,6 @@
             </footer>
         </div>
     </div>
-    
+    <script type="text/javascript" src="./js/script.js"></script>
 </body>
 </html>
