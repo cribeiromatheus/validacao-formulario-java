@@ -90,11 +90,23 @@ section article img {
     position: absolute;    
     height: 50px;
     width: 100%; 
-    top: 25%; 
+    top: 90px; 
 }
 
 #agrup {
     margin-left: 52rem;
+}
+
+#env {
+    border-radius: 10px;
+    width: 100px;
+    height: 22px;
+    background-color: #E600FF;
+    border: none;
+    color: white;
+}
+#env:hover {
+    background-color: #4516FF;
 }
 
 /*Classes*/
@@ -135,3 +147,156 @@ section article img {
 .erro {
     border: 2px solid #ff0000 !important;
 }
+
+/*Media*/
+
+@media(max-width: 1260px){
+    header h1 {
+        font-size: 5rem;
+    }
+    #valida1 h3 {
+        font-size: 2.5rem;
+    }
+}
+@media(max-width: 1111px){
+    header h1 {
+        font-size: 4rem;
+    }
+    #valida1 h3 {
+        font-size: 1.8rem;
+        height: 2rem;
+    }
+    section article img {
+        width: 455px;
+        height: 542px;
+    }
+    #agrup {
+        margin-left: 48rem;
+    }
+}
+@media(max-width: 961px){
+
+    header img {
+        width: 250px;
+        margin-top: -6rem;
+    }
+
+    header {
+        height: 130px;
+    }
+
+    header h1 {
+        margin-left: 26rem;
+        font-size: 4rem;
+    }
+
+    #valida1 h3 {
+        font-size: 1.8rem;
+        height: 2rem;
+    }
+    section article img {
+        width: 400px;
+        height: 542px;
+    }
+    #agrup {
+        margin-left: 42rem;
+    }
+}
+@media(max-width: 880px){
+
+    header img {
+        width: 250px;
+        margin-top: -6rem;
+    }
+
+    header {
+        height: 130px;
+    }
+
+    header h1 {
+        margin-left: 26rem;
+        font-size: 3rem;        
+    }
+
+    #valida1 h3 {
+        font-size: 2rem;
+        height: 1.2rem;
+    }
+    section article img {
+        width: 0px;
+        height: 0px;
+    }
+    #agrup {
+        margin-left: 2rem;
+    }
+}
+@media(max-width: 725px){
+
+    header img {
+        width: 200px;
+        margin-top: -4rem;
+    }
+
+    header {
+        height: 120px;
+    }
+
+    header h1 {
+        margin-left: 20rem;
+        font-size: 2.5rem;        
+    }
+
+    #valida1 h3 {
+        font-size: 2rem;
+        height: 1.2rem;
+    }
+    section article img {
+        width: 0px;
+        height: 0px;
+    }
+    #agrup {
+        margin-left: 2rem;
+    }
+}
+@media(max-width: 598px){
+
+    header img {
+        width: 150px;
+        margin-top: -3rem;
+    }
+
+    header {
+        height: 100px;
+    }
+
+    header h1 {
+        margin-left: 20rem;
+        font-size: 2rem;
+        padding-top: 4rem;      
+    }
+
+    #valida1 h3 {
+        font-size: 2rem;
+        height: 1.2rem;
+    }
+    section article img {
+        width: 0px;
+        height: 0px;
+    }
+    #agrup {
+        margin-left: 2rem;
+    }
+}
+@media(max-width: 536px){
+
+    header h1 {
+        margin-left: 16rem;        
+    }
+    header {
+        height: 95px;
+    }
+}
+@media(min-width: 471px){
+
+}
+
